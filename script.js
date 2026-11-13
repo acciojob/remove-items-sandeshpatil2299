@@ -4,6 +4,6 @@ let removeBtn= document.querySelector('input[type="button"][value="Select and Re
 
 removeBtn.addEventListener("click", () =>  {
     if(colorSelect.selectedIndex !== -1){
-        colorSelect.remove(colorSelect.selectedIndex);
+        colorSelect.removeChild(colorSelect);
     }
 });
